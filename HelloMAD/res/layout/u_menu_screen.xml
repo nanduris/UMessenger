@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graysubtle_bg">
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView 
+        android:id="@+id/textView_username"
+        android:layout_below="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hello, User"/>
+    
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/u_button_styling" >
+
+        <ImageButton
+            android:id="@+id/button_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_usercontacts" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/button_friends"
+            android:text="Contacts"
+            android:textColor="@drawable/u_textview"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:typeface="serif" />
+
+        <ImageButton
+            android:id="@+id/button_messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_friends"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_message" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="85dp"
+            android:layout_toRightOf="@+id/button_messages"
+            android:text="Messages"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@drawable/u_textview"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_below="@+id/menu"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/u_button"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+</RelativeLayout>
+</ScrollView>

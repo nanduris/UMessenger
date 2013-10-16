@@ -1,0 +1,163 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graysubtle_bg">
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/friend_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Select a Question:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/spinner_ques"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="10dp"
+            android:entries="@array/question" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spinner_ques"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="10dp"
+            android:text="Select an Answer:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+
+            <RadioButton
+                android:id="@+id/radio_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="#FFFFFF"
+                android:typeface="serif" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroup_ans"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="10dp"
+            android:text="Timer Expires in"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/timer_hrs"
+            android:maxLength="2"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/timer_hrs"
+            android:layout_alignBottom="@+id/timer_hrs"
+            android:layout_alignParentRight="true"
+            android:text="hours"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_last"
+        android:layout_below="@+id/friend_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/button_sel_loc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friend_menu"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/u_button_styling"
+        android:padding="8dp"
+        android:text="Select Location"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+    
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_last2"
+        android:layout_below="@+id/layout_last"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/button_main_menu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/u_button_styling"
+        android:padding="8dp"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+    </RelativeLayout>
+    
+</RelativeLayout>
+</ScrollView>

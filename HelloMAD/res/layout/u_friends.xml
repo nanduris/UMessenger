@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graysubtle_bg" >
+           
+      <ListView
+        android:id="@+id/android:myfriendslist"
+        android:background="@drawable/graysubtle_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#000000"
+        android:scrollingCache="false">
+     </ListView>
+     
+      <TextView
+    android:id="@+id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:text="No Friends"/>
+
+</RelativeLayout>

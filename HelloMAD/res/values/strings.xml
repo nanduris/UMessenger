@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloMAD</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">NUMAD-SudhamayiNanduri</string>
+    <string name="sub_app_name">Sudoku</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="settings_label">Settings...</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="new_game_title">Difficulty</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="PlayerOneScore">Player 1: Score: 0</string>
+    <string name="PlayerTwoScore">Player 2: Score: 0</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="copyright">© NUMAD Team 2012</string>
+    <string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.</string>
+    <string name="about_title_boggle">About Android Boggle</string>
+    <string name="ack_title_boggle">Acknowledgements</string>
+    <string name="about_boggle_text">\
+    The game begins with a 4x4 tray of cubes containing letters
+    so that only the top letter of each cube is visible. A 
+    three-minute sand timer is started. Player should search for 
+    words that can be constructed from the letters of sequentially
+    adjacent cubes horizontally, vertically or diagonally neighboring. 
+    Words must be at least three letters long, may include singular 
+    and plural (or other derived forms) separately, but may not use the 
+    same letter cube more than once per word (unless it appears twice- 
+    having more than one die with an "s" on it, for example). 
+    After three minutes have elapsed, the game stops and the player scores 
+    based on the words formed. Player receives one point for each unique 
+    word formed.</string>
+    <string name="ack_boggle_text">I thank all of the sources which helped me develop this project. My special thanks to,
+    Google Images, from which I picked my icon for Boggle game and the websites, <b>developer.android.com</b> and <b>stackoverflow.com</b> and
+    code examples(Sudoku example from previous week assignment) for helping me eliminate few bugs in my program. I also thank my friend
+    Sarang Zargar, who suggested me the search from dictionary. </string>
+    <string name="persistent_boggle">Persistent Boggle!</string>
+    <string name="user_name">User Name:</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_menu_screen">MenuScreen</string>
+    <string name="menu">Menu</string>
+    <string name="initiate">Initiate Game</string>
+    <string name="title_activity_boggle">Boggle</string>
+    <string name="add_word">Add Word</string>
+    <string name="pause">paise</string>
+    <string name="score">Score: 0</string>
+    <string name="title_activity_persistent_boggle">MainActivity</string>
+    <string name="about_boggle"> Ths game was developed by a team of 2 members.
+        Team Member Information: Sudhamayi Nanduri(Contact: nanduri.s@husky.neu.edu), Vikranth Reddy(Contact: etikyala.v@husky.neu.edu) </string>
+    <string name="ack">We would like to thank android.developer.com and stackoverflow.com for helping us from time to time. Special thanks to google.com for the boggle images.</string>
+    <string name="rules">It is a multi-player Boggle game with pairs of 2 playing against each other.
+   	You can receive the notifications of the opponent’s moves and score, if the internet is on.
+    The game shows the final scores and who has the highest scores.For the game-play, the player has to choose an opponent. 
+    It is a competition based on the score.The player with highest score wins the game.
+    The score is based on the words made: 1 point for 3 letter word, 2 points for 4 letter word, 3 points for 5 letter word and so on. To play
+    with an other player, the user needs to enter other player name and initiate the game. For a single player game, the user just needs to initiate game without entering any of the other player names.
+    For this simulation, the user ids that can be used are: "alex","bob","mary","john". The password for all the user ids is "adgj".
+    Note: Enter one of these ids to initiate a game. The requests are pulled once on signing in only if the internet is on, else it shows a blank screen. 
+    To pull the game requests again, the user needs to sign in. </string>
+    <string name="title_activity_send_message">SendMessage</string>
+    <string name="title_activity_project_parts">ProjectParts</string>
+    <string name="title_activity_compose_select">ComposeSelect</string>
+
+    <string-array name="question">
+        <item>Do you think your friend is cute?</item>
+        <item>Do you think your friend stinks?</item>
+        <item>Do you think your friend is handsome / beautiful?</item>
+        <item>Do you think your friend is highly educated?</item>
+        <item>Do you think your friend has good manners?</item>
+        <item>Do you think your friend is clean?</item>
+        <item>Do you think your friend is loving and caring?</item>
+        <item>Do you think your friend is born lucky?</item>
+        <item>Do you think your friend eat a lot?</item>
+        <item>Do you think your friend drinks and smokes?</item>
+        <item>Do you think your friend has bad habits?</item>
+    </string-array>
+    <string-array name="answer">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="title_activity_review_screen">ReviewScreen</string>
+    <string name="title_activity_previous_assignments">PreviousAssignments</string>
+    <string name="title_activity_acknowledgement">Acknowledgement</string>
+    <string name="acknowledgement">I thank Professor Stephen Intille for encouraging us to come
+         up with good ideas and the TAs, Matt Garnes and Elica Farjadian for helping us through
+          out the course. \n \n I also thank, \n &quot;www.stackoverflow.com&quot; \n &quot;developer.android.com&quot; \n &quot;www.google.com&quot; \n for providing references 
+          and images. \n \n I also thank my friend Sarang Zargar for helping me out design my 
+          own images for the project using Adobe Photoshop. \n \n This application was tested on
+           Nexus 7.</string>
+    <string name="title_activity_project_main">ProjectMain</string>
+    <string name="desc">Do you want to leave a surprise message for your friend? Do you want it to be timed? Do you want to make it a message hunt? \n \nThis messenger application enables you to do all this exciting stuff! Just create your account to login and surprise your friends!</string>
+
+    <string-array name="feature_type">
+        <item>Surprise Your Friend!</item>
+        <item>Time Your Message!</item>
+        <item>Message Hunt With Teleport!</item>
+    </string-array>
+
+    <color name="yellow">#FFC90E</color>
+
+    <string name="title_activity_sample">Sample</string>
+    <string name="sample">If you want to test the app before creating your own account, you can use the following user ids and passwords: \n 1. user id: joey, password: qwerty \n 2. user id: monica, password:qwerty </string>
+    <string name="title_activity_message_menu">MessageMenu</string>
+
+</resources>

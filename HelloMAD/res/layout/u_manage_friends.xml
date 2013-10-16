@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        android:id="@+id/userid"
+        tools:context=".ManageFriends" />
+    
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/button_sendmsg"
+        android:layout_below="@+id/userid"
+        android:text="Send Message"/>
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_delete"
+        android:layout_below="@+id/button_sendmsg"
+        android:text="Delete"/>
+
+</RelativeLayout>

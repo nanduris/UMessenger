@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button_text_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="Text Message" />
+
+    <Button
+        android:id="@+id/button_audio_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_text_msg"
+        android:layout_marginTop="68dp"
+        android:text="Audio Message" />
+
+    <Button
+        android:id="@+id/button_qa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_audio_msg"
+        android:layout_marginTop="76dp"
+        android:text="Answer a Question" />
+
+</RelativeLayout>

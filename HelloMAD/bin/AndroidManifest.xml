@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.sudhamayinanduri"
+    android:versionCode="21"
+    android:versionName="3.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_DATA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.Profile"
+            android:label="Team Members"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.boggle.BoggleGame"
+            android:label="Boggle Game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.boggle.BoggleLayout"
+            android:label="Boggle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.boggle.AboutBoggle"
+            android:label="@string/about_title_boggle"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.boggle.PrefsBoggle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.boggle.AcknowledgementBoggle"
+            android:label="@string/ack_title_boggle"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.sudoku.Sudoku"
+            android:label="@string/sub_app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.sudoku.About"
+            android:label="@string/about_title"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.sudoku.Prefs"
+            android:label="@string/settings_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.sudoku.Game"
+            android:label="@string/game_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.PersistentMainActivity"
+            android:label="activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.MenuScreen"
+            android:label="activity_menu_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.Boggle"
+            android:label="activity_boggle"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.BoggleGame"
+            android:label="activity_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.CheckReq"
+            android:label="activity_check_req"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.About"
+            android:label="About Persistent Boggle"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.Ack"
+            android:label="Persistent Boggle Acknowledgements"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.Scores"
+            android:label="Persistent Boggle Scores"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthreddyetikyala.persistentboggle.Rules"
+            android:label="Persistent Boggle Rules"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.SendMessage"
+            android:label="@string/title_activity_send_message"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.HmLoginScreen"
+            android:label="Login Screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.HmMenuScreen"
+            android:label="Menu Screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.DisplayMessage"
+            android:label="Display Message"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.SelectLocation"
+            android:label="Select Location"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.vikranthetikyala.trickypart.HmAbout"
+            android:label="About Hello Messenger"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.ProjectParts"
+            android:label="Project Builds"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.PreviousAssignments"
+            android:label="Previous Assignments"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.Acknowledgement"
+            android:label="Acknowledgements"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.ProjectMain"
+            android:label="Start Application"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.AddFriend"
+            android:label="Add New Contact"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.ComposeQa"
+            android:label="Answer a Question"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.ComposeSelect"
+            android:label="Select Message Type"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.ComposeText"
+            android:label="Compose Text Message"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.FriendMenu"
+            android:label="Contacts Menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.FriendRequests"
+            android:label="Pending Incoming Contact Requests"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.Friends"
+            android:label="Contacts"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.Inbox"
+            android:label="Inbox"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.LoginScreen"
+            android:label="MAD-uMessenger"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.MenuScreen"
+            android:label="Main Menu "
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.MessageAdapter"
+            android:label="@string/title_activity_project_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.NewUser"
+            android:label="Create Your Account"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.Review"
+            android:label="Review Your Message"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.SelectLocation"
+            android:label="Select Location"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.ViewMessage"
+            android:label="Message Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.Sample"
+            android:label="Sample UserIds"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.MessageMenu"
+            android:label="Message Menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.Sent"
+            android:label="Sent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="edu.neu.madcourse.sudhamayinanduri.finalproject.ComposeFeature"
+            android:label="Select Message Feature"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+</manifest>

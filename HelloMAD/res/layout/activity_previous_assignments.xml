@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_purple" >
+    
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/imageButton_pboggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton_boggle"
+        android:layout_below="@+id/imageButton_boggle"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/ic_persistent_boggle" />
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton_pboggle"
+        android:layout_marginTop="36dp"
+        android:layout_toRightOf="@+id/imageButton_pboggle"
+        android:background="@drawable/u_button"
+        android:padding="10dp"
+        android:text="Main Menu"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView_boggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton_boggle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Boggle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView_pboggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton_pboggle"
+        android:layout_alignLeft="@+id/textView_boggle"
+        android:layout_marginBottom="18dp"
+        android:text="Persistent Boggle"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButton_boggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginTop="34dp"
+        android:layout_toLeftOf="@+id/textView_boggle"
+        android:src="@drawable/ic_boggle" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/graysubtle_bg">
+  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp"
+        android:text="@string/desc"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        tools:context=".ProjectMain" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1"
+        android:layout_margin="10dp"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp"
+        android:text="Team: \n- Sudhamayi Nanduri \n (nanduri.s@husky.neu.edu) \n- Vikranth Reddy Etikyala \n (etikyala.v@husky.neu.edu)"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        tools:context=".ProjectMain" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/u_button"
+        android:padding="10dp"
+        android:text="Start Application"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_sample"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/u_button"
+        android:padding="10dp"
+        android:text="Sample UserIds"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+</RelativeLayout>
+</ScrollView>

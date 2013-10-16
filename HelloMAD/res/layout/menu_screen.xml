@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/menuTitle"
+        android:text="@string/menu"
+        android:paddingTop="30dp" />
+    
+    <EditText 
+        android:layout_below="@id/menuTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerName"
+        android:inputType="text"/>
+    
+    <Button 
+        android:id="@+id/initiate"
+        android:layout_below="@id/playerName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initiate"/>
+
+    <Button 
+        android:id="@+id/checkReq"
+        android:layout_below="@id/initiate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Game Requests"/>
+    
+    <Button 
+        android:id="@+id/noti"
+        android:layout_below="@id/checkReq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"/>
+    
+     <Button 
+        android:id="@+id/high"
+        android:layout_below="@id/noti"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="High Scores"/>
+     
+     
+     <Button 
+        android:id="@+id/logout"
+        android:layout_below="@id/high"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+</RelativeLayout>

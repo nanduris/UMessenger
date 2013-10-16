@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graysubtle_bg" >
+    
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/newuser_credentials"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/d_username_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Desired Username*:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/d_username_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_username_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:shadowRadius="2" />
+
+        <TextView
+            android:id="@+id/d_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_username_edit"
+            android:layout_marginLeft="10dp"
+            android:text="Desired Password*:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" 
+            android:typeface="serif"/>
+
+        <EditText
+            android:id="@+id/d_password_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_password"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword"
+            android:shadowRadius="2" />
+
+        <TextView
+            android:id="@+id/d_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_password_edit"
+            android:layout_marginLeft="10dp"
+            android:text="Name :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/d_enter_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="text"
+            android:shadowRadius="2" />
+        
+        <TextView
+            android:id="@+id/d_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d_enter_name"
+            android:layout_marginLeft="10dp"
+            android:text="Gender:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" 
+            android:typeface="serif"/>
+        
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/d_gender">
+
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Female"
+                android:textColor="#FFFFFF" 
+                android:typeface="serif"/>
+            
+            <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/radioGroup1"
+            android:layout_toRightOf="@+id/d_password"
+            android:text="Male"
+            android:textColor="#FFFFFF" 
+            android:typeface="serif"/>
+
+        </RadioGroup>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/d_layout_last"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/newuser_credentials" >       
+
+        <Button
+            android:id="@+id/d_button_submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/u_button"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop ="10dp"
+            android:text="Create Account"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/button_login_screen"
+            android:layout_below="@+id/d_button_submit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/u_button"
+            android:padding="8dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+        
+    </RelativeLayout>
+
+    
+    
+</RelativeLayout>
+
+</ScrollView>

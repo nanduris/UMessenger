@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_purple">
+    
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/trickyPart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="304dp"
+        android:src="@drawable/ic_app_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButton_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="216dp"
+        android:src="@drawable/ic_prev" />
+
+    <ImageButton
+        android:id="@+id/imageButton_ack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="120dp"
+        android:src="@drawable/notification" />
+
+    <TextView
+        android:id="@+id/textView_ack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="146dp"
+        android:text="Acknowledgements"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="234dp"
+        android:text="Assignments"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="321dp"
+        android:text="Project"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="32dp"
+        android:src="@drawable/ic_profile" />
+
+    <TextView
+        android:id="@+id/textView_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="52dp"
+        android:text="Team Members"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/main_textview"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="397dp"
+        android:background="@drawable/u_button"
+        android:padding="10dp"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+</AbsoluteLayout>
+</ScrollView>

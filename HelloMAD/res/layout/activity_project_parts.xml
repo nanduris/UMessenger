@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_purple" >
+    
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/tricky_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="64dp"
+        android:layout_x="24dp"
+        android:layout_y="69dp"
+        android:src="@drawable/ic_trickypart" />
+
+    <TextView
+        android:id="@+id/textView_tricky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginLeft="44dp"
+        android:layout_x="123dp"
+        android:layout_y="84dp"
+        android:text="Tricky Part"
+        android:textColor="@drawable/main_textview"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/imageButton_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="178dp"
+        android:src="@drawable/ic_app_launcher" />
+
+    <TextView
+        android:id="@+id/textView_final"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="198dp"
+        android:text="Final Project"
+        android:textColor="@drawable/main_textview"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/back_btn_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_x="98dp"
+        android:layout_y="293dp"
+        android:background="@drawable/u_button"
+        android:padding="10dp"
+        android:text="Back to Menu"
+        android:textColor="#FFFFFF"
+        android:typeface="serif" />
+
+</AbsoluteLayout>
+</ScrollView>

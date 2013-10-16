@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginText"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        tools:context=".LoginScreen" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameText"
+        android:layout_below="@+id/loginText"
+        android:text="Username" />
+    
+     <EditText
+        android:id="@+id/userfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameText"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userfield"
+        android:text="@string/password"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/passfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passfield"
+        android:layout_centerHorizontal="true"
+        android:text="@string/submit" />
+
+    
+    
+    
+
+</RelativeLayout>

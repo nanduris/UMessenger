@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/menu"
+        android:id="@+id/menuText"
+        tools:context=".MenuScreen" />
+    
+    <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendMessage"
+        android:text="Send Message"
+        android:layout_below="@+id/menuText"
+        />
+
+     <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trickyabout"
+        android:text="About"
+        android:layout_below="@+id/sendMessage"
+        />
+     
+     <Button 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hm_exit"
+        android:text="Exit"
+        android:layout_below="@+id/trickyabout"
+        />
+     
+     
+</RelativeLayout>

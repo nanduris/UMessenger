@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graysubtle_bg">
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <RelativeLayout
+        android:id="@+id/addfriend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textview_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Add your Friend:"
+            android:textColor="#FFFFFF"
+            android:typeface="serif"/>
+
+        <EditText
+            android:id="@+id/friendid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:shadowRadius="2"
+            android:maxLength="9"
+            android:layout_below="@+id/textview_search" />
+
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/layout_last"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/addfriend" 
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button_invite"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/u_button"
+            android:padding="10dp"
+            android:text="Send Add Request"
+            android:textColor="#FFFFFF"
+            android:typeface="serif" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+        android:id="@+id/layout_last2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_last"
+        android:layout_centerHorizontal="true" >
+        
+        <Button
+            android:id="@+id/button_contact_menu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop ="10dp"
+            android:background="@drawable/u_button"
+            android:text="Main Menu"
+            android:textColor="#FFFFFF" 
+            android:typeface="serif"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</ScrollView>

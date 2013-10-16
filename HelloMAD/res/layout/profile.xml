@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/plain_purple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="22dp"
+        android:text="Name:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="54dp"
+        android:text="Sudhamayi"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="104dp"
+        android:text="Email:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="135dp"
+        android:text="sudhananduri.89@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="188dp"
+        android:text="Version:"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="274dp"
+        android:text="Phone ID:"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="222dp"
+        android:text="1.1"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/deviceid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="310dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+    
+    <TextView
+        android:id="@+id/teaminfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="360dp"
+        android:text="Team Member, Email:"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+    
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="392dp"
+        android:text="Vikranth Reddy, etikyala.v@husky.neu.edu"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:typeface="serif"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/u_button_styling"
+        android:padding="10dp"
+        android:layout_x="146dp"
+        android:layout_y="429dp"
+        android:text="Exit" 
+        android:textColor="#FFFFFF"
+        android:typeface="serif"/>
+
+    </AbsoluteLayout>
